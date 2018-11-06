@@ -1,3 +1,5 @@
-/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50046:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/andrewrobertson/IdeaProjects/Siloed/out/production/Siloed Main
-In order for the water supply to last 28 days, each person must save 0.0722439211950852 cubic meters of water per day.
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57573:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/andrewrobertson/IdeaProjects/Siloed/out/production/Siloed Main
+
+In order for the water supply to last 28 days, each person must save 0.072244 cubic meters of water per day.
+
 Process finished with exit code 0
