@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+
         double volume = 72 * (22 / 2.0) * (22 / 2.0) * (Math.PI);
         volume += 19 * (18 / 2.0) * (18 / 2.0) * (Math.PI);
         volume += 50 * (13 / 2.0) * (13 / 2.0) * (Math.PI);
@@ -13,12 +14,9 @@ public class Main {
         volume += 40 * (16 / 2.0) * (16 / 2.0) * (Math.PI);
         volume += 31 * (18 / 2.0) * (18 / 2.0) * (Math.PI);
         volume += 75 * (23 / 2.0) * (23 / 2.0) * (Math.PI);
-        
-        double dailyConsumption = 37640 * 0.246;
-        double totalConsumption = 28 * dailyConsumption;
-        double volumeToSave = totalConsumption - volume;
-        double newConsumption = 0.246 - (volumeToSave / (28 * 37640));
 
-        System.out.printf("In order for the water supply to last 28 days, each person must save %f cubic meters of water per day.", newConsumption);
+        double volumeToSave = ((37640 * 0.246 * 28) - volume) / (28 * 37640);
+
+        System.out.printf("\nIn order for the water supply to last 28 days, each person must save %f cubic meters of water per day.\n", volumeToSave);
     }
 }
